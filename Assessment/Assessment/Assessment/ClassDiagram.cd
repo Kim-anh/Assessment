@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Assessment.SMS">
+    <Position X="8.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAACAAIAAA=</HashCode>
+      <FileName>SMS.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Assessment.Email">
+    <Position X="6" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgAAAAAAAAAAAAAAAABAACAAAAAAAAIAAAAAAAAAAA=</HashCode>
+      <FileName>Email.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Assessment.Tweet">
+    <Position X="3.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAACAAIAAA=</HashCode>
+      <FileName>Tweet.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Assessment.Message">
+    <Position X="6" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAAAABAAAgAAAAAAAAAAAAAAQABAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Message.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Body1" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Assessment.Body">
+    <Position X="8" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAACAAIAAA=</HashCode>
+      <FileName>MessageHeader.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
