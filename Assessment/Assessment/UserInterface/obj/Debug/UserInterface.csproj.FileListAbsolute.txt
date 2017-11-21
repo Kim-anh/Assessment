@@ -1,0 +1,10 @@
+H:\Assessment\Assessment\UserInterface\bin\Debug\UserInterface.exe.config
+H:\Assessment\Assessment\UserInterface\bin\Debug\UserInterface.exe
+H:\Assessment\Assessment\UserInterface\bin\Debug\UserInterface.pdb
+H:\Assessment\Assessment\UserInterface\obj\Debug\UserInterface.Form1.resources
+H:\Assessment\Assessment\UserInterface\obj\Debug\UserInterface.Properties.Resources.resources
+H:\Assessment\Assessment\UserInterface\obj\Debug\UserInterface.csproj.GenerateResource.Cache
+H:\Assessment\Assessment\UserInterface\obj\Debug\UserInterface.csproj.CoreCompileInputs.cache
+H:\Assessment\Assessment\UserInterface\obj\Debug\UserInterface.exe
+H:\Assessment\Assessment\UserInterface\obj\Debug\UserInterface.pdb
+H:\Assessment\Assessment\UserInterface\obj\Debug\UserInterface.csprojResolveAssemblyReference.cache

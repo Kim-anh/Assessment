@@ -12,13 +12,18 @@ namespace Assessment
         private string subject;
 
         private string text;
-
-        private Body Body;
-        public Email(string send, string subj, string Txt)
+        
+        public Email(Body body1, string messageHeader1, string send, string subj, string Txt) : base(body1, messageHeader1)
         {
             sender = send;
             subject = subj;
             text = Txt;
+        }
+
+
+        public override Boolean textchange()
+        {
+            throw new NotImplementedException();
         }
     }
 }

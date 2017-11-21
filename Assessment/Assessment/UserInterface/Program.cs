@@ -16,7 +16,10 @@ namespace UserInterface
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Form1());
+            Form1 fr = new Form1();
+            Application.Run(fr);
+           
+
         }
     }
 }

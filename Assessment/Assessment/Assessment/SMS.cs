@@ -7,8 +7,20 @@ namespace Assessment
 {
     public class SMS : Message
     {
-        private String Sender;
+        private string Sender;
         private string Text;
-        private Body Body;
+
+        public SMS(Body body1, string messageHeader1) : base(body1,messageHeader1)
+        {
+            
+        }
+
+
+
+        public override Boolean textchange()
+        {
+            throw new NotImplementedException();
+        }
+
     }
 }

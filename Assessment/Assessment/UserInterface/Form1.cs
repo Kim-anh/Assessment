@@ -8,6 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
+
 namespace UserInterface
 {
     public partial class Form1 : Form
@@ -15,6 +16,19 @@ namespace UserInterface
         public Form1()
         {
             InitializeComponent();
+        }
+
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            /*Message m = new Message();
+            SMS*/ 
+            MessageBox.Show(HeaderForm.Text + "\n" + SenderForm.Text + "\n I need Newtonsoft");
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }

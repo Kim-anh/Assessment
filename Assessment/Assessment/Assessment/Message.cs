@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
+
 namespace Assessment
 {
     public abstract class Message
@@ -15,17 +16,10 @@ namespace Assessment
         {
             body = body1;
             messageHeader = messageHeader1;
+            this.detecttypemsg();
         }
 
-        public Body Body1
-        {
-            get => default(Body);
-            set
-            {
-            }
-        }
-
-        public Boolean Detecttypemsg()
+        public Boolean detecttypemsg()
         {
             if (messageHeader[0]=='S'|| messageHeader[0] == 'E'|| messageHeader[0] == 'T')
             {
@@ -45,5 +39,21 @@ namespace Assessment
             return false;
             //throw new System.NotImplementedException();
         }
+    public string getMessageHeader()
+        {
+            return messageHeader;
+        }
+
+        public Body getBody()
+        {
+            return body;
+        }
+
+        public string gettype()
+        {
+            return type;
+        }
+
+        public abstract Boolean textchange();
     }
 }

@@ -3,7 +3,7 @@
   <Class Name="Assessment.SMS">
     <Position X="8.25" Y="4.5" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAACAAIAAA=</HashCode>
+      <HashCode>AAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAACAAIAAA=</HashCode>
       <FileName>SMS.cs</FileName>
     </TypeIdentifier>
   </Class>
@@ -24,12 +24,9 @@
   <Class Name="Assessment.Message">
     <Position X="6" Y="0.5" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>IAAAAABAAAgAAAAAAAAAAAAAAQABAAAAAAAAAAAAAAA=</HashCode>
+      <HashCode>AEAAAABAAAAQAABIAAAAAAAAAQABAAEAAAAAAAAAAAA=</HashCode>
       <FileName>Message.cs</FileName>
     </TypeIdentifier>
-    <ShowAsAssociation>
-      <Property Name="Body1" />
-    </ShowAsAssociation>
   </Class>
   <Class Name="Assessment.Body">
     <Position X="8" Y="0.5" Width="1.5" />
